@@ -5,4 +5,26 @@ body {
     width: 100%;
     overflow-x: hidden;
 }
-asfasвырваf
+.background-title{
+    position: fixed;
+    width: 100%;
+    height: 160px;
+    background-color: black;
+}
+.call{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+}
+.number{
+    color: white;
+}
+.name-website{
+    position: fixed;
+}
+.up-name{
+    color: #BB8C5F;
+}
+.down-name{
+    color: #BB8C5F;
+}
