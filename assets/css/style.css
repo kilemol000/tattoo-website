@@ -6,27 +6,110 @@ body {
     overflow-x: hidden;
 }
 .background-title{
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 160px;
     background-color: black;
 }
 .call{
-    position: fixed;
+    position: relative;
     width: 30px;
     height: 30px;
+    top: 30px;
+    left: 353px;
 }
 .number{
     color: white;
+    position: relative;
+    top: 4px;
+    left: 405px;
+    width: 118px;
+    height: 18px;
+    font-size: 15px;
+}
+.text-under-number1{
+    color: white;
+    top: 12px;
+    left: 352px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    width: 30px;
+    height: 17px;
+    position: relative;
+    font-size: 12px;
+}
+.text-under-number2{
+    color: #BB8C5F;
+    bottom: 5px;
+    left: 401px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    width: 59px;
+    height: 23px;
+    position: relative;
+    font-size: 12px;
+}
+.text-under-number3{
+    color: white;
+    bottom: 28px;
+    left: 466px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    width: 46px;
+    height: 16px;
+    position: relative;
+    font-size: 12px;
+}
+.emails{
+    position: relative;
+    bottom: 73px;
+    left: 580px;
+    width: 24px;
+    height: 24px;
+}
+.text-emals{
+    position: relative;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #FAF6F2;
+    bottom: 100px;
+    left: 620px;
+    font-size: 15px;
+    width: 125px;
+    height: 20px;
 }
 .name-website{
-    position: fixed;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    bottom: 145px;
 }
 .up-name{
     color: #BB8C5F;
     font-size: 30px;
+    letter-spacing: 2px;
+    font-family: "Forum", sans-serif;
+}
+.middle-line {
+    position: relative;
+    color: #BB8C5F;
+    width: 210px;
+    border: 1px solid #BB8C5F;
 }
 .down-name{
     color: #BB8C5F;
-    font-size: 30px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Forum", sans-serif;
+}
+.big-line{
+    position: relative;
+    width: 1216px;
+    bottom: 135px;
+    color: #524336;
+    border: 1px solid #524336;
+    margin: 0 auto;
 }
