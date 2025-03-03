@@ -188,14 +188,60 @@ body {
     left: 55px;
 }
 .catalog{
-    width: 98px;
+    width: 130px;
     height: 43px;
     position: relative;
     color: white;
-    left: 367px;
-    bottom: 121px;
+    left: 351px;
+    bottom: 117px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 .menu{
-
+    position: relative;
+    width: 24px;
+    height: 14px;
+    bottom: 22px;
+    left: 90px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.menu-line1{
+    background-color: #BB8C5F;
+    width: 24px;
+    height: 8px;
+}
+.menu-line2{
+    background-color: #BB8C5F;
+    width: 24px;
+    height: 8px;
+}
+.menu-line3{
+    background-color: #BB8C5F;
+    width: 24px;
+    height: 8px;
+}
+.search{
+    position: relative;
+    width: 418px;
+    height: 44px;
+    border: 1px solid #524336;
+    bottom: 165px;
+    left: 535px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #636B78;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    gap: 15px;
+}
+.search-glass{
+    width: 28px;
+    height: 28px;
+    margin-left: 15px;
 }
 
