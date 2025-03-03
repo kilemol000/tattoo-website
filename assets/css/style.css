@@ -15,21 +15,21 @@ body {
     position: relative;
     width: 30px;
     height: 30px;
-    top: 30px;
-    left: 353px;
+    top: 5px;
+    right: 12px;
 }
 .number{
     color: white;
     position: relative;
-    top: 4px;
-    left: 405px;
-    width: 118px;
-    height: 18px;
+    top: 32px;
+    left: 365px;
+    width: 145px;
+    height: 41px;
     font-size: 15px;
 }
 .text-under-number1{
     color: white;
-    top: 12px;
+    top: 30px;
     left: 352px;
     font-family: "Jost", sans-serif;
     font-weight: 400;
@@ -40,8 +40,8 @@ body {
 }
 .text-under-number2{
     color: #BB8C5F;
-    bottom: 5px;
-    left: 401px;
+    top: 13px;
+    left: 391px;
     font-family: "Jost", sans-serif;
     font-weight: 400;
     width: 59px;
@@ -51,8 +51,8 @@ body {
 }
 .text-under-number3{
     color: white;
-    bottom: 28px;
-    left: 466px;
+    bottom: 10px;
+    left: 460px;
     font-family: "Jost", sans-serif;
     font-weight: 400;
     width: 46px;
@@ -62,21 +62,21 @@ body {
 }
 .emails{
     position: relative;
-    bottom: 73px;
-    left: 580px;
-    width: 24px;
-    height: 24px;
+    top: 8px;
+    right: 5px;
+    width: 28px;
+    height: 28px;
 }
 .text-emals{
     position: relative;
     font-family: "Jost", sans-serif;
     font-weight: 400;
     color: #FAF6F2;
-    bottom: 100px;
+    bottom: 64px;
     left: 620px;
     font-size: 15px;
-    width: 125px;
-    height: 20px;
+    width: 157px;
+    height: 28px;
 }
 .name-website{
     display: flex;
@@ -85,7 +85,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    bottom: 145px;
+    bottom: 110px;
 }
 .up-name{
     color: #BB8C5F;
@@ -99,6 +99,23 @@ body {
     width: 210px;
     border: 1px solid #BB8C5F;
 }
+.middle-line::before,
+.middle-line::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #BB8C5F;
+    transform: rotate(45deg);
+}
+.middle-line::before {
+    right: 210px;
+    top: -3px;
+}
+.middle-line::after {
+    left: 210px;
+    top: -3px;
+}
 .down-name{
     color: #BB8C5F;
     font-size: 14px;
@@ -108,8 +125,77 @@ body {
 .big-line{
     position: relative;
     width: 1216px;
-    bottom: 135px;
+    bottom: 95px;
     color: #524336;
     border: 1px solid #524336;
     margin: 0 auto;
 }
+.big-line::before,
+.big-line::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+}
+.big-line::before {
+    border-width: 6px 11px 6px 0;
+    border-color: transparent #524336 transparent transparent;
+    left: 1215px;
+    top: -5px;
+}
+
+.big-line::after{
+    border-width: 6px 0 6px 11px;
+    border-color: transparent transparent transparent #524336;
+    right: 1214px;
+    top: -5px;
+}
+.three-navbar{
+    position: relative;
+    color: white;
+    width: 238px;
+    height: 34px;
+    left: 1332px;
+    bottom: 162px;
+}
+.shopping-cart{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 8px;
+    left: 4px;
+}
+.quantity{
+    width: 24px;
+    height: 21px;
+    position: relative;
+    bottom: 8px;
+    right: 11px;
+}
+.mdi-light_heart{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+.account{
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 8px;
+    left: 55px;
+}
+.catalog{
+    width: 98px;
+    height: 43px;
+    position: relative;
+    color: white;
+    left: 367px;
+    bottom: 121px;
+}
+.menu{
+
+}
+
