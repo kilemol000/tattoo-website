@@ -193,7 +193,7 @@ body {
     position: relative;
     color: white;
     left: 351px;
-    bottom: 117px;
+    bottom: 50px;
     font-family: "Jost", sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -228,7 +228,7 @@ body {
     width: 418px;
     height: 44px;
     border: 1px solid #524336;
-    bottom: 165px;
+    bottom: 95px;
     left: 535px;
     display: flex;
     justify-content: left;
@@ -243,5 +243,28 @@ body {
     width: 28px;
     height: 28px;
     margin-left: 15px;
+}
+.info{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;
+    color: white;
+    bottom: 132px;
+    left: 1004px;
+    display: flex;
+    gap: 63px;
+    width: 571px;
+    height: 26px;
+}
+.background{
+    position: relative;
+    width: 1920px;
+    height: 700px;
+    background-color: black; /* Черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 115px;
 }
 
