@@ -267,4 +267,70 @@ body {
     align-items: center;
     bottom: 115px;
 }
+.text-background{
+    position: relative;
+    bottom: 715px;
+    left: 345px;
+    width: 594px;
+    height: 380px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.text-up-background{
+    color: #BB8C5F;
+    font-family: "Forum", sans-serif;
+    font-weight: 400;
+    font-size: 75px;
+}
+.text-under-background{
+    color: #FAF6F2;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    width: 439px;
+}
+.bottom-under-background{
+    width: 275px;
+    height: 70px;
+    position: relative;
+    background-color: #524336;
+    border: 2px solid #BB8C5F;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-menu-right{
+    width: 40px;
+    height: 324px;
+    position: relative;
+    bottom: 1047px;
+    left: 1535px;
+}
+.first-big-box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #BB8C5F;
+}
+.line-in-box{
+    width: 1px;
+    height: 36px;
+    background-color: #BB8C5F;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.line-in-box::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    bottom: 35px;
+    background-color: #BB8C5F;
+    transform: translateX(-42%) rotate(45deg);
+}
 
