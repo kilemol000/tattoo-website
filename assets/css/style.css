@@ -315,6 +315,8 @@ body {
     width: 40px;
     height: 40px;
     border: 1px solid #BB8C5F;
+    position: relative;
+    top: 19px;
 }
 .line-in-box{
     width: 1px;
@@ -333,4 +335,18 @@ body {
     background-color: #BB8C5F;
     transform: translateX(-42%) rotate(45deg);
 }
+.five-small-box{
+    position: relative;
+    top: 40px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.small-box{
+    width: 16px;
+    height: 16px;
+    border: 1px solid #524336;
+}
+
 
