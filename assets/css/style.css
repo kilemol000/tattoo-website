@@ -308,7 +308,7 @@ body {
     width: 40px;
     height: 324px;
     position: relative;
-    bottom: 1047px;
+    bottom: 1070px;
     left: 1535px;
 }
 .first-big-box{
@@ -341,12 +341,131 @@ body {
     left: 12px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 .small-box{
     width: 16px;
     height: 16px;
     border: 1px solid #524336;
 }
+.second-big-box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #BB8C5F;
+    position: relative;
+    top: 60px;
+}
+.line-in-box1{
+    width: 1px;
+    height: 64px;
+    background-color: #BB8C5F;
+    position: relative;
+    left: 20px;
+    top: 26px;
+}
+.line-in-box1::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 65px;
+    background-color: #BB8C5F;
+    transform: translateX(-42%) rotate(45deg);
+}
 
 
+@media screen and (max-width: 1376px) {
+    .text-emails {
+        left: 300px;
+    }
+    .three-navbar {
+        left: 1057px;
+    }
+    .number {
+        left: 97px
+    }
+    .text-under-number1 {
+        left: 83px;
+    }
+    .text-under-number2 {
+        left: 126px;
+    }
+    .text-under-number3 {
+        left: 194px;
+    }
+    .background {
+        width: 100%;
+        height: 590px;
+    }
+    .info {
+        gap: 59px;
+        width: 555px;
+        left: 742px;
+    }
+    .catalog {
+        left: 81px;
+    }
+    .search {
+        left: 255px;
+    }
+    .text-background {
+        bottom: 640px;
+        left: 82px;
+    }
+    .scroll-menu-right {
+        bottom: 1005px;
+        left: 1254px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .big-line {
+        width: 919px;
+    }
+    .big-line::before {
+        left: 918px;
+    }
+    .big-line::after {
+        right: 919px;
+    }
+    .text-emails{
+        left: 300px;
+    }
+    .three-navbar {
+        left: 1057px;
+    }
+    .number {
+        left: 97px
+    }
+    .text-under-number1 {
+        left: 83px;
+    }
+    .text-under-number2 {
+        left: 126px;
+    }
+    .text-under-number3 {
+        left: 194px;
+    }
+    .background {
+        width: 100%;
+        height: 590px;
+    }
+    .info {
+        gap: 59px;
+        width: 555px;
+        left: 742px;
+    }
+    .catalog {
+        left: 81px;
+    }
+    .search {
+        left: 255px;
+    }
+    .text-background {
+        bottom: 640px;
+        left: 82px;
+    }
+    .scroll-menu-right {
+        bottom: 1005px;
+        left: 1254px;
+    }
+}
