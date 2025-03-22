@@ -494,9 +494,6 @@ body {
     .text-emails{
         display: none;
     }
-    .three-navbar {
-        left: 524px;
-    }
     .number{
         display: none;
     }
@@ -509,27 +506,48 @@ body {
     .text-under-number3 {
         display: none;
     }
-    .background {
+    .background-main{
+        background-color: black;
+        display: ;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        height: 495px;
+        height: 500px;
+        overflow: hidden;
+        bottom: 125px;
+        position: relative;
+    }
+    .background {
+        width: 1222px;
+        height: 490px;
+        top: 6px;
+        right: 172px;
+        object-fit: cover;
     }
     .info {
         display: none;
     }
     .catalog {
-        left: 81px;
+        left: 20px;
+        bottom: 137px;
     }
     .search {
-        left: 255px;
+        left: 148px;
+        width: 278px;
+        bottom: 185px;
     }
     .text-background {
-        bottom: 596px;
-        left: 82px;
+        bottom: 500px;
+        left: 20px;
     }
     .text-up-background {
         font-size: 62px;
     }
     .scroll-menu-right {
         display: none;
+    }
+    .three-navbar {
+        left: 510px;
+        bottom: 54px;
     }
 }
