@@ -508,11 +508,10 @@ body {
     }
     .background-main{
         background-color: black;
-        display: ;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 500px;
+        height: 525px;
         overflow: hidden;
         bottom: 125px;
         position: relative;
@@ -543,11 +542,70 @@ body {
     .text-up-background {
         font-size: 62px;
     }
-    .scroll-menu-right {
-        display: none;
-    }
     .three-navbar {
         left: 510px;
         bottom: 54px;
     }
+    .small-box {
+        flex-shrink: 0;
+    }
+    .first-big-box {
+        display: none;
+    }
+    .second-big-box {
+        display: none;
+    }
+    .scroll-menu-right {
+        bottom: 485px;
+        left: 300px;
+    }
+    .five-small-box{
+        flex-direction: row;
+    }
+}
+@media screen and (max-width: 326px) {
+    .search {
+        display: none;
+    }
+    .mdi-light_heart {
+        display: none;
+    }
+    .account {
+        display: none;
+    }
+    .three-navbar {
+        left: 195px;
+        width: 126px;
+    }
+    .scroll-menu-right {
+        display: none;
+    }
+    .background {
+        width: 758px;
+        height: 298px;
+        top: 35px;
+        right: 300px;
+    }
+    .background-main {
+        height: 695px;
+    }
+    .text-background {
+        bottom: 15px;
+        left: 20px;
+    }
+    .text-up-background {
+        font-size: 35px;
+    }
+    .text-under-background {
+        font-size: 20px;
+    }
+    .text-background {
+        width: 285px;
+        height: 300px;
+        top: 75px;
+    }
+    .text-under-background {
+        width: 275px;
+    }
+
 }
