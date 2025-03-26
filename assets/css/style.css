@@ -318,6 +318,9 @@ body {
     position: relative;
     top: 19px;
 }
+.first-big-box:hover {
+    background-color: rgba(187, 140, 95, 0.1);
+}
 .line-in-box{
     width: 1px;
     height: 36px;
@@ -347,6 +350,12 @@ body {
     width: 16px;
     height: 16px;
     border: 1px solid #524336;
+    transition: all 0.5s ease;
+}
+.small-box.active {
+    background-color: #BB8C5F;
+    border-color: #524336;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
 }
 .second-big-box{
     width: 40px;
@@ -354,6 +363,9 @@ body {
     border: 1px solid #BB8C5F;
     position: relative;
     top: 60px;
+}
+.second-big-box:hover {
+    background-color: rgba(187, 140, 95, 0.1);
 }
 .line-in-box1{
     width: 1px;
@@ -399,6 +411,7 @@ body {
     display: flex;
     justify-content: center;
     top: 50px;
+    gap: 20px;
 }
 .first-four-sold-catalog{
     Width: 289px;
@@ -420,15 +433,17 @@ body {
     align-items: center;
     top: 25px;
     left: 25px;
+    z-index: 1;
 }
 .like-small-heart{
     position: relative;
     left: 230px;
+    z-index: 1;
 }
 .four-sold-box{
     position: relative;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     top: 70px;
 }
@@ -483,6 +498,123 @@ body {
     font-weight: 700;
     font-size: 24px;
     color: #BB8C5F;
+}
+.second-four-sold-catalog{
+    Width: 289px;
+    Height: 384px;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.photo-product-in-sold-1{
+    position: relative;
+    top: 60px;
+}
+.four-sold-box-1{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    top: 55px;
+}
+.Name-product-1{
+    position: relative;
+    width: 229px;
+    height: 48px;
+    top: 65px;
+    left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #3E424B;
+}
+.price-product-1{
+    position: relative;
+    top: 75px;
+    left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #BB8C5F;
+}
+.third-four-sold-catalog{
+    Width: 289px;
+    Height: 384px;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.Name-product-2{
+    position: relative;
+    width: 229px;
+    height: 48px;
+    left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #3E424B;
+    bottom: 1px;
+}
+.price-product-2{
+    position: relative;
+    top: 9px;
+    left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #BB8C5F;
+}
+.photo-product-in-sold-2{
+    position: relative;
+    bottom: 15px;
+}
+.four-sold-box-2{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    bottom: 12px;
+}
+.photo-product-in-sold-2::before {
+    content: "";
+    background: url('tattoo-photo-1.png') no-repeat;
+    background-size: contain;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    opacity: 0.3;
+}
+.four-four-sold-catalog{
+    Width: 289px;
+    Height: 384px;
+    position: relative;
+    background-color: #F5F5F5;
+}
+.Name-product-3{
+    position: relative;
+    width: 229px;
+    height: 48px;
+    left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #3E424B;
+    bottom: 5px;
+}
+.price-product-3{
+    position: relative;
+    top: 5px;
+    left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #BB8C5F;
+}
+.four-sold-box-3{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    bottom: 15px;
 }
 
 @media screen and (max-width: 1376px) {
