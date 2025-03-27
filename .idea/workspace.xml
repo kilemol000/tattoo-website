@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 25.03.25 21:18">
-      <change afterPath="$PROJECT_DIR$/assets/images/tattoo-photo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tattoo-photo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tattoo-photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tattooooo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tatoo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tattoo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tattoo34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tattoo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tattoo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tattoo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tattoo7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/tattoo8.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -104,6 +108,7 @@
       <workItem from="1742640608183" duration="6457000" />
       <workItem from="1742906269150" duration="6000000" />
       <workItem from="1742999768655" duration="4063000" />
+      <workItem from="1743084719165" duration="5623000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
