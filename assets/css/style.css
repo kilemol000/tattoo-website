@@ -420,7 +420,13 @@ body {
     position: relative;
     background-color: #F5F5F5;
 }
-
+.second-four-sold-products{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+    gap: 20px;
+}
 
 
 .first-four-sold-catalog{
@@ -501,6 +507,13 @@ body {
     font-size: 17px;
     color: #3E424B;
 }
+.desktop-text {
+    display: inline;
+}
+.mobile-text {
+    display: none;
+}
+
 .photo-product-in-sold{
     position: relative;
     bottom: 53px;
@@ -513,6 +526,15 @@ body {
     font-weight: 700;
     font-size: 24px;
     color: #BB8C5F;
+}
+.sale-price-product{
+    display: none;
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
 }
 .second-four-sold-catalog{
     width: 289px;
@@ -664,6 +686,9 @@ body {
         bottom: 1005px;
         left: 1254px;
     }
+    .sold-products {
+        top: 10px;
+    }
 }
 @media screen and (max-width: 1080px) {
     .big-line {
@@ -719,6 +744,12 @@ body {
     .scroll-menu-right {
         bottom: 957px;
         left: 955px;
+    }
+    .second-four-sold-products {
+        display: none;
+    }
+    .four-four-sold-catalog{
+        display: none;
     }
 }
 @media screen and (max-width: 769px) {
@@ -809,6 +840,43 @@ body {
     }
     .five-small-box{
         flex-direction: row;
+    }
+    .desktop-text {
+        display: none;
+    }
+    .mobile-text {
+        display: inline;
+    }
+    .sale-price-product {
+        display: inline;
+        position: relative;
+        bottom: 49px;
+        left: 150px;
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+        color: #636B78;
+        text-decoration: line-through;
+    }
+    .sold-catalog{
+        font-size: 20px;
+        gap: 25px
+    }
+    .first-four-sold-catalog {
+        width: 229px;
+    }
+    .second-four-sold-catalog {
+        width: 229px;
+    }
+    .third-four-sold-catalog {
+        width: 229px;
+    }
+    .four-sold-box{
+        display: none;
+    }
+    .sold-products {
+        width: 768px;
+        height: 588px;
     }
 }
 @media screen and (max-width: 481px) {
