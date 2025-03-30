@@ -688,6 +688,7 @@ body {
     }
     .sold-products {
         top: 10px;
+        bottom: auto;
     }
 }
 @media screen and (max-width: 1080px) {
@@ -750,6 +751,19 @@ body {
     }
     .four-four-sold-catalog{
         display: none;
+    }
+    .sold-catalog{
+        font-size: 28px;
+        gap: 30px;
+    }
+    .four-sold-box{
+        display: none;
+    }
+    .sold-products {
+        width: 768px;
+        height: 598px;
+        bottom: 85px;
+        top: auto;
     }
 }
 @media screen and (max-width: 769px) {
@@ -878,6 +892,27 @@ body {
         width: 768px;
         height: 588px;
     }
+    .scroll-menu-under-sold{
+        width: 40px;
+        height: 324px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .desktop-bottom {
+        display: none;
+    }
+    .mobile-scroll {
+        display: inline;
+    }
+    .small-box1 {
+        width: 16px;
+        height: 16px;
+        border: 1px solid #524336;
+        background-color: #BB8C5F;
+        box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+    }
+
 }
 @media screen and (max-width: 481px) {
     .search {
