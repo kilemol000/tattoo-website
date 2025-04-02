@@ -643,6 +643,9 @@ body {
     align-items: center;
     top: 40px;
 }
+.five-small-box-two{
+    display: none;
+}
 
 @media screen and (max-width: 1376px) {
     .text-emails {
@@ -852,8 +855,13 @@ body {
         bottom: 485px;
         left: 300px;
     }
-    .five-small-box{
+    .five-small-box-two{
         flex-direction: row;
+        position: relative;
+        top: 40px;
+        left: 12px;
+        display: flex;
+        gap: 15px;
     }
     .desktop-text {
         display: none;
@@ -878,12 +886,15 @@ body {
     }
     .first-four-sold-catalog {
         width: 229px;
+        height: 435px;
     }
     .second-four-sold-catalog {
         width: 229px;
+        height: 435px;
     }
     .third-four-sold-catalog {
         width: 229px;
+        height: 435px;
     }
     .four-sold-box{
         display: none;
@@ -891,6 +902,7 @@ body {
     .sold-products {
         width: 768px;
         height: 588px;
+        bottom: 55px;
     }
     .scroll-menu-under-sold{
         width: 40px;
@@ -912,47 +924,79 @@ body {
         background-color: #BB8C5F;
         box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
     }
-
+    .five-small-box{
+        flex-direction: row;
+    }
+    .add-to-cart-btn{
+        position: static;
+        opacity: 1;
+        margin: auto;
+    }
 }
 @media screen and (max-width: 481px) {
     .search {
         left: 148px;
         width: 190px;
     }
+
     .mdi-light_heart {
         display: none;
     }
+
     .account {
         display: none;
     }
+
     .three-navbar {
         left: 359px;
         width: 120px;
     }
+
     .scroll-menu-right {
         display: none;
     }
+
     .background {
         width: 810px;
         height: 349px;
         right: 260px;
     }
+
     .background-main {
         height: 695px;
     }
+
     .text-up-background {
         font-size: 43px;
     }
+
     .text-under-background {
         width: 440px;
     }
+
     .text-background {
         width: 441px;
         height: 314px;
         top: 25px;
     }
+
     .bottom-under-background {
         left: 75px;
+    }
+    .sold-products{
+        white-space: nowrap; /* Запрещает перенос строк */
+        overflow: hidden; /* Скрывает лишний текст */
+        text-overflow: ellipsis; /* Добавляет "..." в конце скрытого текста */
+        max-width: 100%;
+    }
+    .second-four-sold-catalog {
+        display: none;
+    }
+    .third-four-sold-catalog{
+        display: none;
+    }
+    .first-four-sold-catalog {
+        right: auto;
     }
 }
 
