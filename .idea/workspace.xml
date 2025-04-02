@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 30.03.25 16:43">
+    <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 02.04.25 20:30">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <workItem from="1743176798184" duration="6652000" />
       <workItem from="1743183974309" duration="45000" />
       <workItem from="1743322300491" duration="4696000" />
-      <workItem from="1743596534881" duration="3861000" />
+      <workItem from="1743596534881" duration="5713000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -213,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743327834990</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="work 02.04.25 20:30">
+      <option name="closed" value="true" />
+      <created>1743600620094</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743600620094</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +234,7 @@
     <MESSAGE value="work 27.03.25 23:28" />
     <MESSAGE value="work 29.03.25 0:42" />
     <MESSAGE value="work 30.03.25 16:43" />
-    <option name="LAST_COMMIT_MESSAGE" value="work 30.03.25 16:43" />
+    <MESSAGE value="work 02.04.25 20:30" />
+    <option name="LAST_COMMIT_MESSAGE" value="work 02.04.25 20:30" />
   </component>
 </project>

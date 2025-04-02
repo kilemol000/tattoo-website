@@ -413,13 +413,10 @@ body {
     justify-content: center;
     top: 20px;
     gap: 20px;
+    flex-wrap: wrap;
+
 }
-.first-four-sold-catalog{
-    Width: 289px;
-    Height: 384px;
-    position: relative;
-    background-color: #F5F5F5;
-}
+
 .second-four-sold-products{
     position: relative;
     display: flex;
@@ -557,6 +554,10 @@ body {
     overflow: hidden;
     margin-bottom: 20px;
     border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 .four-four-sold-catalog{
     width: 289px;
@@ -629,6 +630,7 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .bottom-under-sold-products{
     width: 275px;
     height: 70px;
