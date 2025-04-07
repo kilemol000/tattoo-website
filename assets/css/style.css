@@ -456,6 +456,9 @@ body {
     left: 25px;
     z-index: 1;
 }
+.mobile-label {
+    display: none;
+}
 .like-small-heart{
     position: relative;
     left: 230px;
@@ -642,6 +645,9 @@ body {
     justify-content: center;
     align-items: center;
     top: 40px;
+}
+.mobile-scroll{
+    display: none;
 }
 
 @media screen and (max-width: 1376px) {
@@ -863,8 +869,8 @@ body {
     }
     .sale-price-product {
         display: inline;
-        position: relative;
-        bottom: 49px;
+        position: absolute;
+        bottom: 87px;
         left: 150px;
         font-family: "Jost", sans-serif;
         font-weight: 400;
@@ -878,12 +884,15 @@ body {
     }
     .first-four-sold-catalog {
         width: 229px;
+        height: 430px;
     }
     .second-four-sold-catalog {
         width: 229px;
+        height: 430px;
     }
     .third-four-sold-catalog {
         width: 229px;
+        height: 430px;
     }
     .four-sold-box{
         display: none;
@@ -912,7 +921,30 @@ body {
         background-color: #BB8C5F;
         box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
     }
-
+    .add-to-cart-btn {
+        opacity: 1 ;
+        position: static;
+        margin-left: 30px;
+    }
+    .like-small-heart {
+        left: 185px;
+    }
+    .special-card .product__label {
+            display: none;
+        }
+    .special-card .mobile-label {
+        display: block;
+        color: #755FBB;
+        border: 1px solid #755FBB;
+        }
+    .special-card .product__label {
+        display: none; /* Скрываем основную плашку */
+    }
+    .special-card .mobile-label {
+        display: block; /* Показываем мобильную плашку */
+        color: #755FBB;
+        border: 1px solid #755FBB;
+    }
 }
 @media screen and (max-width: 481px) {
     .search {
@@ -954,6 +986,16 @@ body {
     .bottom-under-background {
         left: 75px;
     }
+    .sold-products{
+        overflow: hidden;
+        width: 480px;
+    }
+    .second-four-sold-catalog{
+        display: none;
+    }
+    .third-four-sold-catalog{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 326px) {
@@ -968,7 +1010,7 @@ body {
     }
     .three-navbar {
         left: 195px;
-        width: 126px;
+        width: 125px;
     }
     .scroll-menu-right {
         display: none;
@@ -997,6 +1039,12 @@ body {
     .text-under-background {
         width: 275px;
         font-size: 20px;
+    }
+    .sold-products {
+        width: 320px;
+    }
+    .bottom-under-background {
+        left: auto;
     }
 
 }
