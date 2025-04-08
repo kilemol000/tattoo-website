@@ -649,6 +649,45 @@ body {
 .mobile-scroll{
     display: none;
 }
+.Catalog-product{
+    width: 1217px;
+    height: 1570px;
+    display: flex;
+    position: relative;
+    background-color: #755FBB;
+    margin: 0 auto;
+    top: 275px;
+}
+.Name-section{
+    display: flex;
+    justify-content: center;
+}
+.first-catalog-product{
+    display: flex;
+}
+.tattoo-kits{
+    display: flex;
+    width: 494px;
+    height: 350px;
+    background-color: #F5F5F5;
+}
+.holders{
+    display: flex;
+    width: 701px;
+    height: 350px;
+    background-color: #F5F5F5;
+}
+.tattoo-kits-photo{
+    width: 349px;
+    height: 350px;
+    margin-left: 130px;
+}
+.holders-photo{
+    width: 535px;
+    height: 271px;
+    display: flex;
+    margin-top: auto;
+}
 
 @media screen and (max-width: 1376px) {
     .text-emails {
@@ -1045,6 +1084,9 @@ body {
     }
     .bottom-under-background {
         left: auto;
+    }
+    .sold-products {
+        width: 325px;
     }
 
 }
