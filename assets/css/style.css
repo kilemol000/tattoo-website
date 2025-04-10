@@ -652,7 +652,7 @@ body {
 .Catalog-product{
     width: 1217px;
     height: 1570px;
-    display: flex;
+    /*display: flex;*/
     position: relative;
     background-color: #755FBB;
     margin: 0 auto;
@@ -661,9 +661,17 @@ body {
 .Name-section{
     display: flex;
     justify-content: center;
+    font-family: "Forum", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #3E424B;
 }
 .first-catalog-product{
     display: flex;
+    gap: 23px;
+    height: 350px;
+    position: relative;
+    bottom: 240px;
 }
 .tattoo-kits{
     display: flex;
@@ -680,13 +688,158 @@ body {
 .tattoo-kits-photo{
     width: 349px;
     height: 350px;
-    margin-left: 130px;
+    margin-left: 30px;
 }
 .holders-photo{
     width: 535px;
     height: 271px;
     display: flex;
     margin-top: auto;
+}
+.name-tattoo-kits{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    width: 113px;
+    height: 66px;
+    color: #3E424B;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.name-holders {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    width: 113px;
+    height: 66px;
+    color: #3E424B;
+    position: relative;
+    left: 80px;
+    top: 35px;
+}
+.second-catalog-product{
+    display: flex;
+    gap: 21px;
+    height: 350px;
+    position: relative;
+    bottom: 220px;
+}
+.tattoo-machines{
+    Width: 342px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-tattoo-machines{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    left: 42px;
+    top: 30px;
+}
+.tattoo-machines-photo{
+    display: flex;
+    margin: auto;
+    height: 259px;
+    position: relative;
+    top: 47px;
+}
+.pedals-and-wires{
+    Width: 493px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-pedals-and-wires{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    width: 152px;
+    height: 81px;
+    z-index: 2;
+    top: 25px;
+    left: 40px;
+}
+.pedals-and-wires-photo{
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+    bottom: 0px;
+    left: 503px;
+}
+.paints{
+    Width: 341px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-paints{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    z-index: 2;
+    top: 35px;
+    left: 45px;
+}
+.paints-photo{
+    position: relative;
+    z-index: 1;
+    top: 40px;
+    left: 15px;
+}
+.third-catalog-product{
+    display: flex;
+    gap: 21px;
+    height: 350px;
+    position: relative;
+}
+.power-supply{
+    Width: 495px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-power-supply{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    z-index: 2;
+}
+.photo-power-supply{
+    position: relative;
+    top: 39px;
+    left: 25px;
+}
+.tips{
+    Width: 341px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-tips{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    z-index: 2;
+}
+.tattoo-needles{
+    Width: 341px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-tattoo-needles{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    z-index: 2;
 }
 
 @media screen and (max-width: 1376px) {
