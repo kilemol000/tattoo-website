@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 08.04.25">
-      <change afterPath="$PROJECT_DIR$/assets/images/paints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/pedals.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/power-supply.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tattoo-machines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tattoo-needles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/tips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/accessories.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/foxx-viper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/lip-nitn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/protection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_04_2025_19_21_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_04_2025_19_21__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -57,23 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;c78e009c&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kilem/Desktop/single_page&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "608517e5",
+    "last_opened_file_path": "C:/Users/kilem/Desktop/single_page",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kilem\Desktop\tatoo-website\assets\images" />
@@ -117,6 +118,7 @@
       <workItem from="1743322300491" duration="4250000" />
       <workItem from="1744118038106" duration="4003000" />
       <workItem from="1744278282824" duration="8141000" />
+      <workItem from="1744817154578" duration="4635000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />

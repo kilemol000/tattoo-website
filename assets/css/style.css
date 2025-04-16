@@ -651,10 +651,9 @@ body {
 }
 .Catalog-product{
     width: 1217px;
-    height: 1570px;
+    height: 1219px;
     /*display: flex;*/
     position: relative;
-    background-color: #755FBB;
     margin: 0 auto;
     top: 275px;
 }
@@ -796,6 +795,7 @@ body {
     gap: 21px;
     height: 350px;
     position: relative;
+    bottom: 200px;
 }
 .power-supply{
     Width: 495px;
@@ -809,6 +809,8 @@ body {
     color: #3E424B;
     position: relative;
     z-index: 2;
+    top: 40px;
+    left: 45px;
 }
 .photo-power-supply{
     position: relative;
@@ -827,6 +829,8 @@ body {
     color: #3E424B;
     position: relative;
     z-index: 2;
+    top: 40px;
+    left: 40px;
 }
 .tattoo-needles{
     Width: 341px;
@@ -840,6 +844,140 @@ body {
     color: #3E424B;
     position: relative;
     z-index: 2;
+    top: 40px;
+    left: 40px;
+}
+.four-catalog-product{
+    display: flex;
+    gap: 21px;
+    height: 350px;
+    position: relative;
+    bottom: 180px;
+}
+.Protection-containers-consumables{
+    Width: 340px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-Protection-containers-consumables{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    left: 40px;
+}
+.photo-Protection-containers-consumables{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.Accessories{
+    Width: 340px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-Accessories{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    z-index: 2;
+    top: 32px;
+    left: 50px;
+}
+.photo-Accessories{
+    position: relative;
+    top: 50px;
+    left: 33px;
+}
+.Printers-and-tablets{
+    Width: 495px;
+    Height: 350px;
+    background-color: #F5F5F5;
+}
+.name-Printers-and-tablets{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3E424B;
+    position: relative;
+    z-index: 2;
+    top: 33px;
+    left: 40px;
+}
+.photo-Printers-and-tablets{
+    position: relative;
+    bottom: 42px;
+    left: 30px;
+}
+.two-product-categories{
+    width: 1919px;
+    height: 470px;
+    top: 730px;
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+.name-first-product{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FAF6F2;
+    position: relative;
+    z-index: 2;
+    bottom: 440px;
+    left: 353px;
+}
+.name-second-product{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FAF6F2;
+    position: relative;
+    z-index: 2;
+    left: 50px;
+    bottom: 440px;
+    width: 272px;
+}
+.first-product-categories{
+    position: relative;
+    z-index: 2;
+    bottom: 142px;
+    left: 355px;
+}
+.up-first-product-categories{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #BB8C5F;
+}
+
+.down-first-product-categories {
+    position: relative;
+    color: #BB8C5F;
+    width: 210px;
+    border: 1px solid #BB8C5F;
+}
+.down-first-product-categories::before,
+.down-first-product-categories::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #BB8C5F;
+    transform: rotate(45deg);
+}
+.down-first-product-categories::before {
+    right: 210px;
+    top: -3px;
+}
+.down-first-product-categories::after {
+    left: 210px;
+    top: -3px;
 }
 
 @media screen and (max-width: 1376px) {
