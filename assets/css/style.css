@@ -650,20 +650,37 @@ body {
     display: none;
 }
 .Catalog-product{
-    width: 1217px;
-    height: 1219px;
-    /*display: flex;*/
+    /*width: 1217px;*/
+    /*height: 1219px;*/
+    /*position: relative;*/
+    /*margin: 0 auto;*/
+    /*top: 275px;*/
+    max-width: 1217px;
+    width: 100%;
+    min-height: 1219px;
     position: relative;
     margin: 0 auto;
-    top: 275px;
+    padding-top: 275px;
+    box-sizing: border-box;
+}
+.Catalog-products-block{
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .Name-section{
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*font-family: "Forum", sans-serif;*/
+    /*font-weight: 400;*/
+    /*font-size: 60px;*/
+    /*color: #3E424B;*/
+    text-align: center;
     font-family: "Forum", sans-serif;
     font-weight: 400;
     font-size: 60px;
     color: #3E424B;
+    margin-bottom: 40px;
 }
 .first-catalog-product{
     display: flex;
@@ -847,6 +864,9 @@ body {
     top: 40px;
     left: 40px;
 }
+.paints1{
+    display: none;
+}
 .four-catalog-product{
     display: flex;
     gap: 21px;
@@ -959,7 +979,7 @@ body {
 .down-first-product-categories {
     position: relative;
     color: #BB8C5F;
-    width: 210px;
+    width: 171px;
     border: 1px solid #BB8C5F;
 }
 .down-first-product-categories::before,
@@ -972,12 +992,52 @@ body {
     transform: rotate(45deg);
 }
 .down-first-product-categories::before {
-    right: 210px;
-    top: -3px;
+    right: 171px;
+    top: -2px;
 }
 .down-first-product-categories::after {
-    left: 210px;
-    top: -3px;
+    left: 171px;
+    top: -2px;
+}
+.up-first-product-categories{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #BB8C5F;
+}
+.second-product-categories{
+    position: relative;
+    bottom: 195px;
+    left: 55px;
+}
+.up-second-product-categories{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #BB8C5F;
+}
+.down-second-product-categories {
+    position: relative;
+    color: #BB8C5F;
+    width: 171px;
+    border: 1px solid #BB8C5F;
+}
+.down-second-product-categories::before,
+.down-second-product-categories::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #BB8C5F;
+    transform: rotate(45deg);
+}
+.down-second-product-categories::before {
+    right: 171px;
+    top: -2px;
+}
+.down-second-product-categories::after {
+    left: 171px;
+    top: -2px;
 }
 
 @media screen and (max-width: 1376px) {
@@ -1026,6 +1086,13 @@ body {
         top: 10px;
         bottom: auto;
     }
+    .Catalog-product {
+        padding-top: 160px;
+    }
+    .Name-section{
+        margin-bottom: 290px;
+    }
+
 }
 @media screen and (max-width: 1080px) {
     .big-line {
@@ -1100,6 +1167,82 @@ body {
         height: 598px;
         bottom: 85px;
         top: auto;
+    }
+    .Name-section {
+        text-align: left;
+    }
+    .Catalog-product {
+        padding-top: 0;
+    }
+    .tattoo-kits {
+        width: 279px;
+        height: 330px;
+    }
+    .tattoo-kits-photo {
+        width: 279px;
+        height: 254px;
+        position: relative;
+        right: 130px;
+        top: 75px;
+    }
+    .name-tattoo-kits {
+        z-index: 1;
+        white-space: nowrap;
+        top: 35px;
+        left: 50px;
+    }
+    .holders-photo {
+        width: 429px;
+        height: 207px;
+        margin-top: 110px;
+    }
+    .holders {
+        display: flex;
+        width: 429px;
+        height: 329px;
+    }
+    .holders-photo {
+        width: 465px;
+        height: 207px;
+        margin-top: 110px;
+        position: relative;
+        right: 103px;
+    }
+    .name-holders {
+        left: 55px;
+    }
+    .power-supply{
+        display: none;
+    }
+    .tips{
+        display: none;
+    }
+    .tattoo-needles{
+        display: none;
+    }
+    .four-catalog-product{
+        display: none;
+    }
+    .paints1{
+        Width: 341px;
+        Height: 350px;
+        background-color: #F5F5F5;
+    }
+    .name-paints1{
+        font-family: "Jost", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        color: #3E424B;
+        position: relative;
+        z-index: 2;
+        top: 35px;
+        left: 45px;
+    }
+    .paints-photo1{
+        position: relative;
+        z-index: 1;
+        top: 40px;
+        left: 15px;
     }
 }
 @media screen and (max-width: 769px) {

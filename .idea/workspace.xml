@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 08.04.25">
-      <change afterPath="$PROJECT_DIR$/assets/images/accessories.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/foxx-viper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/lip-nitn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/printer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/protection.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_04_2025_19_21_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_07_04_2025_19_21__Changes_1.xml" beforeDir="false" />
+    <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 16.04.25">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -63,7 +56,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "608517e5",
+    "git-widget-placeholder": "a6a98bfd",
     "last_opened_file_path": "C:/Users/kilem/Desktop/single_page",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -118,7 +111,7 @@
       <workItem from="1743322300491" duration="4250000" />
       <workItem from="1744118038106" duration="4003000" />
       <workItem from="1744278282824" duration="8141000" />
-      <workItem from="1744817154578" duration="4635000" />
+      <workItem from="1744817154578" duration="12043000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -232,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744127822148</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="work 16.04.25">
+      <option name="closed" value="true" />
+      <created>1744821999838</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744821999838</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +248,7 @@
     <MESSAGE value="work 29.03.25 0:42" />
     <MESSAGE value="work 07.04.25" />
     <MESSAGE value="work 08.04.25" />
-    <option name="LAST_COMMIT_MESSAGE" value="work 08.04.25" />
+    <MESSAGE value="work 16.04.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="work 16.04.25" />
   </component>
 </project>
