@@ -680,7 +680,7 @@ body {
     font-weight: 400;
     font-size: 60px;
     color: #3E424B;
-    margin-bottom: 40px;
+    margin-bottom: 275px;
 }
 .first-catalog-product{
     display: flex;
@@ -963,6 +963,9 @@ body {
     bottom: 440px;
     width: 272px;
 }
+.desktop-bottom-1{
+    display: none;
+}
 .first-product-categories{
     position: relative;
     z-index: 2;
@@ -1173,6 +1176,8 @@ body {
     }
     .Catalog-product {
         padding-top: 0;
+        display: flex;
+        justify-content: center;
     }
     .tattoo-kits {
         width: 279px;
@@ -1223,10 +1228,46 @@ body {
     .four-catalog-product{
         display: none;
     }
+    .paints{
+        display: none;
+    }
+    .tattoo-machines {
+        Width: 354px;
+        Height: 314px;
+    }
+    .tattoo-machines-photo {
+        width: 236px;
+        height: 219px;
+    }
+    .name-tattoo-machines {
+        top: 50px;
+    }
+    .pedals-and-wires {
+        Width: 354px;
+        Height: 313px;
+    }
+    .name-pedals-and-wires {
+        white-space: nowrap;
+        top: 50px;
+    }
+    .pedals-and-wires-photo {
+        width: 227px;
+        height: 223px;
+        bottom: 40px;
+        left: 485px;
+    }
+    .second-catalog-product {
+        bottom: 240px;
+    }
+    .third-catalog-product {
+        bottom: 255px;
+    }
     .paints1{
-        Width: 341px;
-        Height: 350px;
+        Width: 728px;
+        Height: 314px;
         background-color: #F5F5F5;
+        display: flex;
+        overflow: hidden
     }
     .name-paints1{
         font-family: "Jost", sans-serif;
@@ -1241,10 +1282,36 @@ body {
     .paints-photo1{
         position: relative;
         z-index: 1;
-        top: 40px;
-        left: 15px;
+        top: 72px;
+        left: 0;
+        width: 529px;
+        height: 369px;
     }
-
+    .desktop-bottom-1{
+        display: flex;
+        position: relative;
+        justify-content: center;
+        bottom: 240px;
+    }
+    .bottom-under-catalog{
+        width: 275px;
+        height: 70px;
+        position: relative;
+        border: 2px solid #BB8C5F;
+        font-family: "Jost", sans-serif;
+        font-weight: 400;
+        font-size: 25px;
+        color: #BB8C5F;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .two-product-categories {
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        top: auto;
+        bottom: 115px;
+    }
 }
 @media screen and (max-width: 769px) {
     .catalog-text {
@@ -1382,7 +1449,7 @@ body {
         display: flex;
         justify-content: center;
     }
-    .desktop-bottom {
+    .bottom-under-sold-products {
         display: none;
     }
     .mobile-scroll {
