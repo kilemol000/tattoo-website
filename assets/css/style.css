@@ -935,13 +935,17 @@ body {
     left: 30px;
 }
 .two-product-categories{
-    width: 1919px;
+    width: 100%;
     height: 470px;
-    top: 730px;
+    bottom: 30px;
     position: relative;
     display: flex;
     gap: 20px;
 }
+.second-photo-product{
+    display: none;
+}
+
 .name-first-product{
     font-family: "Jost", sans-serif;
     font-weight: 700;
@@ -1012,6 +1016,7 @@ body {
     position: relative;
     bottom: 195px;
     left: 55px;
+    width: 183px;
 }
 .up-second-product-categories{
     font-family: "Jost", sans-serif;
@@ -1095,7 +1100,24 @@ body {
     .Name-section{
         margin-bottom: 290px;
     }
+    .two-product-categories {
+        object-fit: cover;
+        top: auto;
+        bottom: 80px;
+    }
+    .first-product{
+        /*!*overflow: hidden;*!*/
+        /*width: 50%;*/
+        /*transform: translateX(-80%);*/
 
+    }
+    .second-product{
+        overflow: hidden;
+    }
+    .name-first-product {
+        width: 301px;
+
+    }
 }
 @media screen and (max-width: 1080px) {
     .big-line {
@@ -1309,7 +1331,6 @@ body {
     .two-product-categories {
         width: 100vw;
         margin-left: calc(-50vw + 50%);
-        top: auto;
         bottom: 115px;
     }
 }
@@ -1537,6 +1558,76 @@ body {
     .third-four-sold-catalog{
         display: none;
     }
+    .Catalog-product {
+        min-height: 1710px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .first-catalog-product {
+        display: grid;
+    }
+    .tattoo-kits {
+        width: 280px;
+        height: 310px;
+    }
+    .tattoo-kits-photo {
+        width: 260px;
+        height: 197px;
+        position: relative;
+        right: 100px;
+        top: 106px;
+    }
+    .holders {
+        width: 280px;
+        height: 270px;
+    }
+    .holders-photo {
+        width: 280px;
+        height: 135px;
+        right: 107px;
+    }
+    .tattoo-machines {
+        Width: 280px;
+        Height: 314px;
+    }
+    .name-pedals-and-wires {
+        white-space: normal;
+        top: 25px;
+        left: 50px;
+    }
+    .pedals-and-wires-photo {
+        width: 212px;
+        height: 209px;
+        top: 425px;
+        left: 35px;
+    }
+    .pedals-and-wires {
+        Width: 280px;
+    }
+    .second-catalog-product {
+        top: 35px;
+        display: grid;
+    }
+    .paints1 {
+        Width: 280px;
+        Height: 261px;
+    }
+    .paints-photo1 {
+        width: 280px;
+        height: 191px;
+        right: 77px;
+        left: auto;
+    }
+    .third-catalog-product {
+        top: 355px;
+        width: 280px;
+        height: 261px;
+    }
+    .desktop-bottom-1 {
+        top: 395px;
+        justify-content:normal;
+    }
 }
 
 @media screen and (max-width: 326px) {
@@ -1588,7 +1679,9 @@ body {
         left: auto;
     }
     .sold-products {
-        width: 325px;
+        width: 320px;
     }
-
+    .name-tattoo-machines {
+        width: 200px;
+    }
 }
