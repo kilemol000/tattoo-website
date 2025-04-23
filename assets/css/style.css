@@ -942,9 +942,34 @@ body {
     display: flex;
     gap: 20px;
 }
-.second-photo-product{
-    display: none;
+.first-product{
+    overflow: hidden;
 }
+.second-product{
+    overflow: hidden;
+}
+.first-photo-product img{
+    width: 950px;
+    height: 470px;
+    object-fit: cover;
+    transform: scale(1.17);
+    object-position: center;
+    right: 2px;
+    top: 5px;
+    position: relative;
+}
+.second-photo-product img{
+    width: 950px;
+    height: 470px;
+    object-fit: cover;
+    transform: scale(1);
+    object-position: center;
+    right: 2px;
+    position: relative;
+}
+/*.second-photo-product{*/
+/*    display: none;*/
+/*}*/
 
 .name-first-product{
     font-family: "Jost", sans-serif;
@@ -953,7 +978,7 @@ body {
     color: #FAF6F2;
     position: relative;
     z-index: 2;
-    bottom: 440px;
+    bottom: 400px;
     left: 353px;
 }
 .name-second-product{
@@ -973,8 +998,8 @@ body {
 .first-product-categories{
     position: relative;
     z-index: 2;
-    bottom: 142px;
-    left: 355px;
+    bottom: 137px;
+    left: 348px;
 }
 .up-first-product-categories{
     font-family: "Jost", sans-serif;
@@ -1106,10 +1131,8 @@ body {
         bottom: 80px;
     }
     .first-product{
-        /*!*overflow: hidden;*!*/
-        /*width: 50%;*/
-        /*transform: translateX(-80%);*/
-
+        width: 54%;
+        transform: translateX(-30%);
     }
     .second-product{
         overflow: hidden;
@@ -1333,6 +1356,16 @@ body {
         margin-left: calc(-50vw + 50%);
         bottom: 115px;
     }
+    .first-product {
+        width: 51%;
+        transform: translateX(-73%);
+    }
+    .name-first-product {
+        left: 455px;
+    }
+    .first-product-categories{
+        left: 460px;
+    }
 }
 @media screen and (max-width: 769px) {
     .catalog-text {
@@ -1507,6 +1540,32 @@ body {
         color: #755FBB;
         border: 1px solid #755FBB;
     }
+    .first-photo-product{
+        /*display: none;*/
+    }
+    /*.second-photo-product{*/
+    /*    display: contents;*/
+    /*}*/
+    .first-product {
+        width: 49%;
+        transform: translateX(0%);
+    }
+    .name-first-product {
+        font-size: 30px;
+        left: 50px;
+        bottom: 265px;
+    }
+    .first-product-categories{
+        left: 53px;
+        bottom: 126px;
+    }
+    .name-second-product {
+        font-size: 30px;
+        bottom: 265px;
+    }
+    .second-product-categories {
+        bottom: 166px;
+    }
 }
 @media screen and (max-width: 481px) {
     .search {
@@ -1628,6 +1687,13 @@ body {
         top: 395px;
         justify-content:normal;
     }
+    .two-product-categories {
+        flex-direction: column;
+        bottom: auto;
+        top: 130px;
+        height: 696px;
+        margin-left: calc(-39vw + 50%);
+    }
 }
 
 @media screen and (max-width: 326px) {
@@ -1683,5 +1749,27 @@ body {
     }
     .name-tattoo-machines {
         width: 200px;
+    }
+    .two-product-categories {
+        overflow: hidden;
+        margin-left: calc(-50vw + 50%);
+    }
+    .second-product {
+        transform: translateX(-15%);
+        overflow: unset;
+        bottom: 75px;
+        position: relative;
+    }
+    .first-product {
+        transform: translateX(-15%);
+    }
+    .first-product-categories {
+        width: 173px;
+        left: 50px;
+        bottom: 127px;
+    }
+    .name-first-product {
+        left: 44px;
+        bottom: 285px;
     }
 }
