@@ -940,7 +940,7 @@ body {
     bottom: 30px;
     position: relative;
     display: flex;
-    gap: 20px;
+    gap: 24px;
 }
 .second-photo-product-categ{
     display: none;
@@ -1083,6 +1083,93 @@ body {
 .down-second-product-categories::after {
     left: 171px;
     top: -2px;
+}
+.popular-brands{
+    width: 1376px;
+    height: 527px;
+    position: relative;
+    margin: 70px auto 0;
+}
+.names-section{
+    font-size: 60px;
+    color: #3E424B;
+}
+.extra-block{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #3E424B;
+    width: 150px;
+    margin-left: auto;
+}
+.grid-popular-brand {
+    position: relative;
+    color: #D0D0D0;
+    width: 1352px;
+    border: 1px solid #D0D0D0;
+    left: 10px;
+    top: 150px;
+}
+.grid-popular-brand::before,
+.grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+}
+.grid-popular-brand::before {
+    border-width: 6px 11px 6px 0;
+    border-color: transparent #D0D0D0 transparent transparent;
+    left: 1352px;
+    top: -5.1px;
+}
+
+.grid-popular-brand::after{
+    border-width: 6px 0 6px 11px;
+    border-color: transparent transparent transparent #D0D0D0;
+    right: 1352px;
+    top: -5.1px;
+}
+.№1-grid-popular-brand {
+    position: relative;
+    height: 204px;       /* Высота линии */
+    width: 1px;          /* Толщина линии */
+    background: #D0D0D0; /* Цвет линии */
+    margin: 150px 0 0 10px; /* Отступы */
+}
+
+/* Стрелка вверху */
+.№1-grid-popular-brand::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 6px 5px; /* Формируем треугольник */
+    border-color: transparent transparent #D0D0D0 transparent;
+}
+
+/* Стрелка внизу */
+.№1-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px; /* Перевёрнутый треугольник */
+    border-color: #D0D0D0 transparent transparent transparent;
+}
+.№1-two-brands{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 310px;
 }
 
 @media screen and (max-width: 1376px) {
@@ -1749,10 +1836,6 @@ body {
     .background-main {
         height: 695px;
     }
-    /*.text-background {*/
-    /*    bottom: 15px;*/
-    /*    left: 20px;*/
-    /*}*/
     .text-up-background {
         font-size: 35px;
     }
@@ -1780,6 +1863,8 @@ body {
     .two-product-categories {
         overflow: hidden;
         margin-left: auto;
+        left: auto;
+        width: 320px;
     }
 
     .first-product-categories {
