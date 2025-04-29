@@ -381,13 +381,11 @@
         <div class="names-section">Популярные бренды</div>
         <div class="block-popular-brands">
             <div class="extra-block">Смотреть все</div>
-            <div class="left-button-brand"></div>
+            <div class="left-button-brand">
+                <div class="left-button-brand-triangle"></div>
+            </div>
             <div class="firs-five-popular-brands">
                 <div class="grid-popular-brand"></div>
-                <div class="№1-grid-popular-brand"></div>
-                <div class="№2-grid-popular-brand"></div>
-                <div class="№3-grid-popular-brand"></div>
-                <div class="№4-grid-popular-brand"></div>
 
                 <div class="№1-two-brands">
                     <div class="kurosumi">
@@ -397,46 +395,47 @@
                         <img class="two-brands" src="assets/images/professionals.inc..png" alt="">
                     </div>
                 </div>
+                <div class="№1-grid-popular-brand"></div>
                 <div class="№2-two-brands">
-                    <div class="">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="hanafy">
+                        <img class="two-brands" src="assets/images/hanafy.png" alt="">
                     </div>
-                    <div class="">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="h20cean">
+                        <img class="two-brands" src="assets/images/h2ocean.png" alt="">
                     </div>
                 </div>
+                <div class="№2-grid-popular-brand"></div>
                 <div class="№3-two-brands">
-                    <div class="">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="tattoorevive">
+                        <img class="two-brands" src="assets/images/tattoorevive.png" alt="">
                     </div>
-                    <div class="professional.inc">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="incMachines">
+                        <img class="two-brands" src="assets/images/incMachines.png" alt="">
                     </div>
                 </div>
+                <div class="№3-grid-popular-brand"></div>
                 <div class="№4-two-brands">
-                    <div class="">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="aloeTattoo">
+                        <img class="two-brands" src="assets/images/aloeTattoo.png" alt="">
                     </div>
-                    <div class="professional.inc">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="cheyenne">
+                        <img class="two-brands" src="assets/images/cheyenne.png" alt="">
                     </div>
                 </div>
+                <div class="№4-grid-popular-brand"></div>
                 <div class="№5-two-brands">
-                    <div class="">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="dermalize">
+                        <img class="two-brands" src="assets/images/dermalize.png" alt="">
                     </div>
-                    <div class="">
-                        <img class="two-brands" src="assets/images/" alt="">
+                    <div class="kwadron">
+                        <img class="two-brands" src="assets/images/kwadron.png" alt="">
                     </div>
                 </div>
-
-
-
-
-
             </div>
             <div class="second-five-popular-brands"></div>
-            <div class="right-button-brand"></div>
+            <div class="right-button-brand">
+                <div class="right-button-brand-triangle"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -592,6 +591,28 @@
             }
         }
     });
+    const button = document.querySelector('.left-button-brand');
+
+    button.addEventListener('mousedown', () => {
+        button.style.transform = 'translateY(2px)';
+    });
+
+    button.addEventListener('mouseup', () => {
+        button.style.transform = 'translateY(-2px)';
+    });
+
+    button.addEventListener('mouseleave', () => {
+        button.style.transform = 'translateY(0)';
+    });
+
+    document.querySelector('.right-button-brand').addEventListener('click', function() {
+        this.style.transform = 'translateY(1px)';
+        setTimeout(() => {
+            this.style.transform = 'translateY(-2px)';
+        }, 150);
+    });
+
+
 </script>
 </body>
 </html>

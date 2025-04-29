@@ -1085,7 +1085,7 @@ body {
     top: -2px;
 }
 .popular-brands{
-    width: 1376px;
+    width: 1470px;
     height: 527px;
     position: relative;
     margin: 70px auto 0;
@@ -1093,6 +1093,14 @@ body {
 .names-section{
     font-size: 60px;
     color: #3E424B;
+    width: 525px;
+    position: relative;
+    left: 85px;
+}
+.block-popular-brands{
+    width: 1295px;
+    height: 350px;
+    margin: 0 auto;
 }
 .extra-block{
     font-family: "Jost", sans-serif;
@@ -1105,7 +1113,7 @@ body {
 .grid-popular-brand {
     position: relative;
     color: #D0D0D0;
-    width: 1352px;
+    width: 1278px;
     border: 1px solid #D0D0D0;
     left: 10px;
     top: 150px;
@@ -1121,56 +1129,222 @@ body {
 .grid-popular-brand::before {
     border-width: 6px 11px 6px 0;
     border-color: transparent #D0D0D0 transparent transparent;
-    left: 1352px;
-    top: -5.1px;
+    left: 1270px;
+    top: -5.5px;
 }
 
 .grid-popular-brand::after{
     border-width: 6px 0 6px 11px;
     border-color: transparent transparent transparent #D0D0D0;
-    right: 1352px;
-    top: -5.1px;
+    right: 1278px;
+    top: -5.5px;
 }
 .№1-grid-popular-brand {
     position: relative;
-    height: 204px;       /* Высота линии */
-    width: 1px;          /* Толщина линии */
-    background: #D0D0D0; /* Цвет линии */
-    margin: 150px 0 0 10px; /* Отступы */
+    height: 204px;
+    width: 1px;
+    background: #D0D0D0;
+    margin: 0 0 0 10px;
+    bottom: 165px;
+    left: 230px;
 }
-
-/* Стрелка вверху */
 .№1-grid-popular-brand::before {
     content: "";
     position: absolute;
     top: -5px;
-    left: -5px;
+    left: -4px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0 5px 6px 5px; /* Формируем треугольник */
+    border-width: 0 5px 6px 5px;
     border-color: transparent transparent #D0D0D0 transparent;
 }
 
-/* Стрелка внизу */
 .№1-grid-popular-brand::after {
     content: "";
     position: absolute;
     bottom: -5px;
-    left: -5px;
+    left: -4px;
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 6px 5px 0 5px; /* Перевёрнутый треугольник */
+    border-width: 6px 5px 0 5px;
     border-color: #D0D0D0 transparent transparent transparent;
 }
 .№1-two-brands{
     gap: 40px;
+    width: 210px;
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom: 310px;
+    top: 45px;
 }
+.№2-two-brands{
+    gap: 40px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 371px;
+    left: 270px;
+}
+.№2-grid-popular-brand {
+    position: relative;
+    height: 204px;
+    width: 1px;
+    background: #D0D0D0;
+    margin: 0 0 0 10px;
+    bottom: 581px;
+    left: 500px;
+}
+.№2-grid-popular-brand::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #D0D0D0 transparent;
+}
+
+.№2-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #D0D0D0 transparent transparent transparent;
+}
+.№3-two-brands{
+    gap: 40px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 787px;
+    left: 540px;
+}
+.№3-grid-popular-brand {
+    position: relative;
+    height: 204px;
+    width: 1px;
+    background: #D0D0D0;
+    margin: 0 0 0 10px;
+    bottom: 997px;
+    left: 770px;
+}
+.№3-grid-popular-brand::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #D0D0D0 transparent;
+}
+
+.№3-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #D0D0D0 transparent transparent transparent;
+}
+.№4-two-brands{
+    gap: 40px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 1203px;
+    left: 810px;
+}
+.№4-grid-popular-brand {
+    position: relative;
+    height: 204px;
+    width: 1px;
+    background: #D0D0D0;
+    margin: 0 0 0 10px;
+    bottom: 1413px;
+    left: 1040px;
+}
+.№4-grid-popular-brand::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #D0D0D0 transparent;
+}
+
+.№4-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: -4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #D0D0D0 transparent transparent transparent;
+}
+.№5-two-brands{
+    gap: 40px;
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 1619px;
+    left: 1080px;
+}
+.left-button-brand{
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #BB8C5F;
+    position: absolute;
+    left: 0;
+    bottom: 246px;
+}
+.left-button-brand-triangle{
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-right: 16px solid #BB8C5F;
+    margin: 16px 15px;
+}
+
+.right-button-brand{
+    width: 50px;
+    height: 50px;
+    border: 1.5px solid #BB8C5F;
+    position: absolute;
+    right: 0;
+    bottom: 246px;
+}
+.right-button-brand-triangle{
+    width: 0;
+    height: 0;
+    margin: 16px 19px;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 16px solid #BB8C5F;
+}
+
 
 @media screen and (max-width: 1376px) {
     .text-emails {
