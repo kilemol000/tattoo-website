@@ -1085,7 +1085,7 @@ body {
     top: -2px;
 }
 .popular-brands{
-    width: 1470px;
+    width: 100%;
     height: 527px;
     position: relative;
     margin: 70px auto 0;
@@ -1095,7 +1095,8 @@ body {
     color: #3E424B;
     width: 525px;
     position: relative;
-    left: 85px;
+    left: 315px;
+    top: 55px;
 }
 .block-popular-brands{
     width: 1295px;
@@ -1109,6 +1110,10 @@ body {
     color: #3E424B;
     width: 150px;
     margin-left: auto;
+    width: 146px;
+    height: 35px;
+    position: relative;
+    top: 40px;
 }
 .grid-popular-brand {
     position: relative;
@@ -1316,8 +1321,11 @@ body {
     height: 50px;
     border: 1.5px solid #BB8C5F;
     position: absolute;
-    left: 0;
+    left: 230px;
     bottom: 246px;
+}
+.firs-five-popular-brands{
+    height: 260px;
 }
 .left-button-brand-triangle{
     width: 0;
@@ -1333,7 +1341,7 @@ body {
     height: 50px;
     border: 1.5px solid #BB8C5F;
     position: absolute;
-    right: 0;
+    right: 235px;
     bottom: 246px;
 }
 .right-button-brand-triangle{
@@ -1350,69 +1358,104 @@ body {
     .text-emails {
         left: 300px;
     }
+
     .three-navbar {
         left: 1057px;
     }
+
     .number {
         left: 97px
     }
+
     .text-under-number1 {
         left: 83px;
     }
+
     .text-under-number2 {
         left: 126px;
     }
+
     .text-under-number3 {
         left: 194px;
     }
+
     .background {
         width: 100%;
         height: 590px;
     }
+
     .info {
         gap: 59px;
         width: 555px;
         left: 742px;
     }
+
     .catalog {
         left: 81px;
     }
+
     .search {
         left: 255px;
     }
+
     .text-background {
         bottom: 640px;
         left: 82px;
     }
+
     .scroll-menu-right {
         bottom: 1005px;
         left: 1254px;
     }
+
     .sold-products {
         top: 10px;
         bottom: auto;
     }
+
     .Catalog-product {
         padding-top: 160px;
     }
-    .Name-section{
+
+    .Name-section {
         margin-bottom: 290px;
     }
+
     .two-product-categories {
         object-fit: cover;
         top: auto;
         bottom: 80px;
         width: 1370px;
     }
+
     .first-photo-product img {
         right: 252px;
     }
+
     .name-first-product {
         width: 301px;
         bottom: 440px;
         left: 157px;
     }
+
+    .left-button-brand {
+        display: none;
+    }
+
+    .right-button-brand {
+        display: none;
+    }
+
+    .popular-brands {
+        width: 1374px;
+        bottom: 90px;
+    }
+
+    .names-section {
+        left: 40px;
+    }
 }
+
 @media screen and (max-width: 1080px) {
     .big-line {
         width: 919px;
@@ -1645,6 +1688,28 @@ body {
     .second-product-categories {
         bottom: 257px;
     }
+    .№5-two-brands{
+        display: none;
+    }
+    .№4-grid-popular-brand{
+        display: none;
+    }
+    .grid-popular-brand{
+        width: 1007px;
+    }
+    .grid-popular-brand::before {
+        left: 1000px;
+    }
+    .block-popular-brands {
+        width: 1024px;
+    }
+    .popular-brands {
+        width: 1080px;
+        bottom: 120px;
+    }
+    .names-section {
+        left: 30px;
+    }
 }
 @media screen and (max-width: 769px) {
     .catalog-text {
@@ -1850,6 +1915,29 @@ body {
     .two-product-categories {
         bottom: 165px;
     }
+    .№4-two-brands{
+        display: none;
+    }
+    .№3-grid-popular-brand{
+        display: none;
+    }
+    .grid-popular-brand {
+        width: 732px;
+    }
+    .grid-popular-brand::before {
+        left: 729px;
+    }
+    .block-popular-brands {
+        width: 750px;
+    }
+    .names-section {
+        left: 10px;
+        font-size: 50px;
+    }
+    .popular-brands {
+        width: 768px;
+        bottom: 280px;
+    }
 }
 @media screen and (max-width: 481px) {
     .search {
@@ -1982,6 +2070,18 @@ body {
     .first-product-categories {
         width: 180px;
     }
+    .kurosumi.png{
+        width: 83px;
+        height: 32px;
+    }
+    .professionals.inc..png{
+        width: 83px;
+        height: 32px;
+    }
+    .hanafy.png{}
+    .h2ocean.png{}
+    .tattoorevive.png{}
+    .incMachines.png{}
 }
 
 @media screen and (max-width: 326px) {
