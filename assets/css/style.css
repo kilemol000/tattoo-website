@@ -1098,6 +1098,9 @@ body {
     left: 315px;
     top: 55px;
 }
+.names-section-1{
+    display: none;
+}
 .block-popular-brands{
     width: 1295px;
     height: 350px;
@@ -1144,6 +1147,7 @@ body {
     right: 1278px;
     top: -5.5px;
 }
+
 .№1-grid-popular-brand {
     position: relative;
     height: 204px;
@@ -1156,25 +1160,25 @@ body {
 .№1-grid-popular-brand::before {
     content: "";
     position: absolute;
-    top: -5px;
-    left: -4px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 5px 6px 5px;
-    border-color: transparent transparent #D0D0D0 transparent;
-}
-
-.№1-grid-popular-brand::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: -4px;
+    top: -4px;
+    left: -4.4px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 6px 5px 0 5px;
     border-color: #D0D0D0 transparent transparent transparent;
+}
+
+.№1-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: -4.4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #D0D0D0 transparent;
 }
 .№1-two-brands{
     gap: 40px;
@@ -1205,8 +1209,20 @@ body {
 .№2-grid-popular-brand::before {
     content: "";
     position: absolute;
-    top: -5px;
-    left: -4px;
+    top: -4px;
+    left: -4.4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #D0D0D0 transparent transparent transparent;
+}
+
+.№2-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: -4.4px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -1214,17 +1230,6 @@ body {
     border-color: transparent transparent #D0D0D0 transparent;
 }
 
-.№2-grid-popular-brand::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: -4px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 6px 5px 0 5px;
-    border-color: #D0D0D0 transparent transparent transparent;
-}
 .№3-two-brands{
     gap: 40px;
     width: 210px;
@@ -1246,25 +1251,25 @@ body {
 .№3-grid-popular-brand::before {
     content: "";
     position: absolute;
-    top: -5px;
-    left: -4px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 5px 6px 5px;
-    border-color: transparent transparent #D0D0D0 transparent;
-}
-
-.№3-grid-popular-brand::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: -4px;
+    top: -4px;
+    left: -4.4px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 6px 5px 0 5px;
     border-color: #D0D0D0 transparent transparent transparent;
+}
+
+.№3-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: -4.4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #D0D0D0 transparent;
 }
 .№4-two-brands{
     gap: 40px;
@@ -1287,25 +1292,25 @@ body {
 .№4-grid-popular-brand::before {
     content: "";
     position: absolute;
-    top: -5px;
-    left: -4px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 0 5px 6px 5px;
-    border-color: transparent transparent #D0D0D0 transparent;
-}
-
-.№4-grid-popular-brand::after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: -4px;
+    top: -4px;
+    left: -4.4px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 6px 5px 0 5px;
     border-color: #D0D0D0 transparent transparent transparent;
+}
+
+.№4-grid-popular-brand::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: -4.4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 6px 5px;
+    border-color: transparent transparent #D0D0D0 transparent;
 }
 .№5-two-brands{
     gap: 40px;
@@ -2070,18 +2075,96 @@ body {
     .first-product-categories {
         width: 180px;
     }
-    .kurosumi.png{
+    .two-brands{
         width: 83px;
         height: 32px;
     }
-    .professionals.inc..png{
+    .professionals.inc.png{
         width: 83px;
         height: 32px;
     }
-    .hanafy.png{}
-    .h2ocean.png{}
-    .tattoorevive.png{}
-    .incMachines.png{}
+    .hanafy.png{
+        width: 83px;
+        height: 32px;
+    }
+    .h2ocean.png{
+        width: 83px;
+        height: 32px;
+    }
+    .tattoorevive.png{
+        width: 83px;
+        height: 32px;
+    }
+    .incMachines.png{
+        width: 83px;
+        height: 32px;
+    }
+    .popular-brands {
+        top: 75px;
+        width: 305px;
+    }
+    .extra-block {
+        font-size: 15px;
+        width: 88px;
+        top: 85px;
+    }
+    .block-popular-brands {
+        width: 305px;
+        height: 230px;
+    }
+    .firs-five-popular-brands {
+        width: 305px;
+    }
+    .names-section{
+        display: none;
+    }
+    .names-section-1{
+        display: flex;
+        font-size: 25px;
+        color: #3E424B;
+        width: 525px;
+        position: relative;
+        left: 315px;
+    }
+    .grid-popular-brand {
+        width: 295px;
+        left: 3px;
+    }
+    .grid-popular-brand::before {
+        left: 289px;
+    }
+    .grid-popular-brand::after {
+        right: 289px;
+    }
+    .№1-two-brands {
+        gap: 20px;
+        width: 83px;
+        top: 105px;
+    }
+    .№1-grid-popular-brand {
+        height: 80px;
+        top: 17px;
+        left: 85px;
+    }
+    .№2-two-brands {
+        gap: 20px;
+        width: 83px;
+        bottom: 67px;
+        left: 108px;
+    }
+    .№2-grid-popular-brand {
+        height: 80px;
+        bottom: 155px;
+        left: 195px;
+    }
+    .№3-two-brands {
+        gap: 20px;
+        width: 83px;
+        bottom: 239px;
+        left: 221px;
+    }
+
+
 }
 
 @media screen and (max-width: 326px) {
