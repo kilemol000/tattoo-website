@@ -1113,7 +1113,6 @@ body {
     color: #3E424B;
     width: 150px;
     margin-left: auto;
-    width: 146px;
     height: 35px;
     position: relative;
     top: 40px;
@@ -1357,6 +1356,59 @@ body {
     border-bottom: 9px solid transparent;
     border-left: 16px solid #BB8C5F;
 }
+.about-site-tattoo{
+    width: 1568px;
+    height: 635px;
+    display: flex;
+    gap: 108px;
+}
+.about-site-photo{
+    width: 935px;
+    height: 635px;
+}
+.about-site-photo-1{
+    display: none;
+}
+.about-site-photo-2{
+    display: none;
+}
+.site-description{
+    width: 524px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    right: 50px;
+}
+.table-of-contents{
+    font-weight: 400;
+    font-size: 50px;
+    color: #BB8C5F;
+    width: 536px;
+}
+.about-site-description{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #3E424B;
+    width: 580px;
+    height: 320px;
+}
+.bottom-under-about-site{
+    width: 275px;
+    height: 70px;
+    position: relative;
+    border: 2px solid #BB8C5F;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #BB8C5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+}
 
 
 @media screen and (max-width: 1376px) {
@@ -1458,6 +1510,23 @@ body {
 
     .names-section {
         left: 40px;
+    }
+    .about-site-tattoo {
+        width: 930px;
+        height: 635px;
+        margin: 0 auto;
+        display: grid;
+        justify-items: center;
+        position: relative;
+        bottom: 160px;
+    }
+    .site-description {
+        width: 575px;
+        bottom: 110px;
+        right: auto;
+    }
+    .bottom-under-about-site {
+        margin: 0 auto;
     }
 }
 
@@ -1715,6 +1784,12 @@ body {
     .names-section {
         left: 30px;
     }
+    .about-site-photo{
+        display: none;
+    }
+    .about-site-photo-1{
+        display: flex;
+    }
 }
 @media screen and (max-width: 769px) {
     .catalog-text {
@@ -1882,12 +1957,15 @@ body {
         border: 1px solid #755FBB;
         }
     .special-card .product__label {
-        display: none; /* Скрываем основную плашку */
+        display: none;
     }
     .special-card .mobile-label {
-        display: block; /* Показываем мобильную плашку */
+        display: block;
         color: #755FBB;
         border: 1px solid #755FBB;
+    }
+    .two-product-categories {
+        width: auto;
     }
     .name-first-product {
         font-size: 30px;
@@ -1943,57 +2021,84 @@ body {
         width: 768px;
         bottom: 280px;
     }
+    .about-site-tattoo {
+        width: 768px;
+        height: 635px;
+        bottom: 385px;
+        justify-items: normal;
+    }
+    .about-site-description {
+        width: 728px;
+        height: 270px;
+    }
+    .site-description {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 481px) {
     .search {
         left: 148px;
         width: 190px;
     }
+
     .mdi-light_heart {
         display: none;
     }
+
     .account {
         display: none;
     }
+
     .three-navbar {
         left: 359px;
         width: 120px;
     }
+
     .scroll-menu-right {
         display: none;
     }
+
     .background {
         width: 810px;
         height: 349px;
         right: 260px;
     }
+
     .background-main {
         height: 695px;
     }
+
     .text-up-background {
         font-size: 43px;
     }
+
     .text-under-background {
         width: 440px;
     }
+
     .text-background {
         width: 441px;
         height: 314px;
         top: 25px;
     }
+
     .bottom-under-background {
         left: 75px;
     }
-    .sold-products{
+
+    .sold-products {
         overflow: hidden;
         width: 480px;
     }
-    .second-four-sold-catalog{
+
+    .second-four-sold-catalog {
         display: none;
     }
-    .third-four-sold-catalog{
+
+    .third-four-sold-catalog {
         display: none;
     }
+
     .Catalog-product {
         min-height: 1710px;
         display: grid;
@@ -2003,10 +2108,12 @@ body {
     .first-catalog-product {
         display: grid;
     }
+
     .tattoo-kits {
         width: 280px;
         height: 310px;
     }
+
     .tattoo-kits-photo {
         width: 260px;
         height: 197px;
@@ -2014,56 +2121,68 @@ body {
         right: 100px;
         top: 106px;
     }
+
     .holders {
         width: 280px;
         height: 270px;
     }
+
     .holders-photo {
         width: 280px;
         height: 135px;
         right: 107px;
     }
+
     .tattoo-machines {
         Width: 280px;
         Height: 314px;
     }
+
     .name-pedals-and-wires {
         white-space: normal;
         top: 25px;
         left: 50px;
     }
+
     .pedals-and-wires-photo {
         width: 212px;
         height: 209px;
         top: 425px;
         left: 35px;
     }
+
     .pedals-and-wires {
         Width: 280px;
     }
+
     .second-catalog-product {
         top: 35px;
         display: grid;
     }
+
     .paints1 {
         Width: 280px;
         Height: 261px;
     }
+
     .paints-photo1 {
         width: 280px;
         height: 191px;
         right: 77px;
         left: auto;
     }
+
     .third-catalog-product {
         top: 355px;
         width: 280px;
         height: 261px;
     }
+
     .desktop-bottom-1 {
         top: 395px;
-        justify-content:normal;
+        justify-content: normal;
     }
+
     .two-product-categories {
         flex-direction: column;
         bottom: auto;
@@ -2072,99 +2191,144 @@ body {
         left: 55px;
         width: 376px;
     }
+
     .first-product-categories {
         width: 180px;
     }
-    .two-brands{
+
+    .two-brands {
         width: 83px;
         height: 32px;
     }
-    .professionals.inc.png{
+
+    .professionals.inc.png {
         width: 83px;
         height: 32px;
     }
-    .hanafy.png{
+
+    .hanafy.png {
         width: 83px;
         height: 32px;
     }
-    .h2ocean.png{
+
+    .h2ocean.png {
         width: 83px;
         height: 32px;
     }
-    .tattoorevive.png{
+
+    .tattoorevive.png {
         width: 83px;
         height: 32px;
     }
-    .incMachines.png{
+
+    .incMachines.png {
         width: 83px;
         height: 32px;
     }
+
     .popular-brands {
-        top: 75px;
+        bottom: 30px;
+        top: auto;
         width: 305px;
+        height: 260px;
     }
+
     .extra-block {
         font-size: 15px;
         width: 88px;
         top: 85px;
     }
+
     .block-popular-brands {
         width: 305px;
         height: 230px;
     }
+
     .firs-five-popular-brands {
         width: 305px;
     }
-    .names-section{
+
+    .names-section {
         display: none;
     }
-    .names-section-1{
+
+    .names-section-1 {
         display: flex;
         font-size: 25px;
         color: #3E424B;
-        width: 525px;
+        width: 148px;
         position: relative;
-        left: 315px;
+        left: auto;
+        top: 105px;
     }
+
     .grid-popular-brand {
         width: 295px;
         left: 3px;
     }
+
     .grid-popular-brand::before {
         left: 289px;
     }
+
     .grid-popular-brand::after {
         right: 289px;
     }
+
     .№1-two-brands {
         gap: 20px;
         width: 83px;
         top: 105px;
     }
+
     .№1-grid-popular-brand {
         height: 80px;
         top: 17px;
         left: 85px;
     }
+
     .№2-two-brands {
         gap: 20px;
         width: 83px;
         bottom: 67px;
         left: 108px;
     }
+
     .№2-grid-popular-brand {
         height: 80px;
         bottom: 155px;
         left: 195px;
     }
+
     .№3-two-brands {
         gap: 20px;
         width: 83px;
         bottom: 239px;
         left: 221px;
     }
-
-
+    .about-site-photo-1{
+        display: none;
+    }
+    .about-site-photo-2{
+        display: flex;
+    }
+    .about-site-tattoo {
+        width: 320px;
+        height: 900px;
+        top: 5px;
+    }
+    .table-of-contents {
+        font-size: 25px;
+        width: 268px;
+    }
+    .about-site-description {
+        width: 100%;
+        height: 430px;
+        font-size: 15px;
+    }
+    .site-description {
+       gap: 15px;
+    }
 }
 
 @media screen and (max-width: 326px) {
@@ -2219,7 +2383,7 @@ body {
     }
     .two-product-categories {
         overflow: hidden;
-        margin-left: auto;
+        margin: 0 auto;
         left: auto;
         width: 320px;
     }
