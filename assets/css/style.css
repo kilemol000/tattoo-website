@@ -2409,4 +2409,15 @@ body {
     .three-photo-product-categ-1{
         display: contents;
     }
+    .about-site-description {
+        width: 278px;
+        height: 515px;
+    }
+    .site-description {
+        width: 85%;
+        bottom: 140px;
+    }
+    .about-site-tattoo {
+        justify-items: center;
+    }
 }
