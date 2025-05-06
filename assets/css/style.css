@@ -1409,7 +1409,117 @@ body {
     align-items: center;
     top: 10px;
 }
+.reviews-about-site{
+    width: 100%;
+    height: 539px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+.recall-block-one{
+    width: 598px;
+    height: 307px;
+    background-color: #050402;
+}
+.recall-block-two{
+    width: 598px;
+    height: 307px;
+    background-color: #050402;
+}
+.grid-recall-block-1 {
+    position: relative;
+    color: #BB8C5F;
+    width: 590px;
+    border: 1px solid #BB8C5F;
+}
+.grid-recall-block-1::before,
+.grid-recall-block-1::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+}
+.grid-recall-block-1::before {
+    border-width: 6px 11px 6px 0;
+    border-color: transparent #BB8C5F transparent transparent;
+    left: 587px;
+    top: -5.5px;
+}
 
+.grid-recall-block-1::after{
+    border-width: 6px 0 6px 11px;
+    border-color: transparent transparent transparent #BB8C5F;
+    right: 581px;
+    top: -5.5px;
+}
+.grid-recall-block-2 {
+    position: relative;
+    color: #BB8C5F;
+    width: 590px;
+    border: 1px solid #BB8C5F;
+    top: 44px;
+}
+.grid-recall-block-2::before,
+.grid-recall-block-2::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+}
+.grid-recall-block-2::before {
+    border-width: 6px 11px 6px 0;
+    border-color: transparent #BB8C5F transparent transparent;
+    left: 587px;
+    top: -5.5px;
+}
+
+.grid-recall-block-2::after{
+    border-width: 6px 0 6px 11px;
+    border-color: transparent transparent transparent #BB8C5F;
+    right: 581px;
+    top: -5.5px;
+}
+.first-review-text{
+    font-family: "Jost", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #D0D0D0;
+    width: 482px;
+    height: 148px;
+    position: relative;
+    top: 13%;
+    left: 48.4%;
+    transform: translate(-50%, -50%);
+}
+.review-photo-1{
+    z-index: 2;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+.box-review-instagram{
+    width: 28px;
+    height: 28px;
+    border: 1px solid #BB8C5F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.review-instagram-1{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #BB8C5F;
+    font-size: 20px;
+    width: 141px;
+    display: flex;
+    position: relative;
+    left: 48.3px;
+    gap: 15px;
+}
 
 @media screen and (max-width: 1376px) {
     .text-emails {
