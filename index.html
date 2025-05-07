@@ -461,6 +461,10 @@
     </div>
     <div class="reviews-about-site">
         <div class="name-reviews-site">Отзывы</div>
+        <div class="recall-block">
+            <div class="left-button-review">
+                <div class="left-button-review-triangle"></div>
+            </div>
         <div class="recall-block-one">
             <div class="grid-recall-block-1"></div>
             <img class="review-photo-1" src="assets/images/review-photo.png" alt="">
@@ -481,8 +485,32 @@
         </div>
         <div class="recall-block-two">
             <div class="grid-recall-block-1"></div>
-            <div class="second-review-text"></div>
+            <img class="review-photo-1" src="assets/images/instagram-1.png" alt="">
+            <div class="first-review-text">
+                Положили всё необходимое + наклейку, скидочную карту и леденцы,
+                неожиданным было то, что держатель и клип-корд в наборе пришёл
+                не того цвета, меня даже порадовало, вот только разочаровала
+                одна упакованная игла, которую не получилось адекватно достать
+            </div>
+            <div class="review-instagram-1">
+                <div class="box-review-instagram">
+                    <img class="review-instagram" src="assets/images/instagram.png" alt="">
+                </div>
+                @mark_love
+            </div>
             <div class="grid-recall-block-2"></div>
+        </div>
+            <div class="right-button-review">
+                <div class="right-button-review-triangle"></div>
+            </div>
+        </div>
+        <div class="five-small-box-1" >
+            <!--                 id="smallBoxesContainer">-->
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
+            <div class="small-box"></div>
         </div>
     </div>
 </section>
@@ -658,6 +686,18 @@
             this.style.transform = 'translateY(-2px)';
         }, 150);
     });
+    document.querySelector('.left-button-review').addEventListener('click', function() {
+        this.style.transform = 'translateY(1px)';
+        setTimeout(() => {
+            this.style.transform = 'translateY(-2px)';
+        }, 150);
+    });document.querySelector('.right-button-review').addEventListener('click', function() {
+        this.style.transform = 'translateY(1px)';
+        setTimeout(() => {
+            this.style.transform = 'translateY(-2px)';
+        }, 150);
+    });
+
 
 
 </script>
