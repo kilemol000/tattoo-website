@@ -1432,10 +1432,11 @@ body {
 .recall-block {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
     gap: 35px;
     margin-top: 100px;
     position: relative;
+    left: 675px;
 }
 
 .carousel-container {
@@ -1446,7 +1447,9 @@ body {
 }
 
 .recall-block-one,
-.recall-block-two {
+.recall-block-two,
+.recall-block-three,
+.recall-block-fore{
     width: 598px;
     height: 307px;
     background-color: #050402;
@@ -1583,12 +1586,12 @@ body {
 
 .left-button-review {
     position: absolute;
-    left: 710px;
+    right: 1930px;
 }
 
 .right-button-review {
     position: absolute;
-    right: 710px;
+    right: 1260px;
 }
 
 .left-button-review:active,
@@ -1749,6 +1752,21 @@ body {
     }
     .bottom-under-about-site {
         margin: 0 auto;
+    }
+    .reviews-about-site {
+        margin-top: 490px;
+    }
+    .recall-block {
+        left: 390px;
+    }
+    .grid-recall-block-2 {
+        top: 43px;
+    }
+    .left-button-review {
+        right: 1377px;
+    }
+    .right-button-review {
+        right: 715px;
     }
 }
 
@@ -2012,6 +2030,18 @@ body {
     .about-site-photo-1{
         display: flex;
     }
+    .reviews-about-site {
+        margin-top: auto;
+    }
+    .recall-block {
+        left: 230px;
+    }
+    .left-button-review {
+        right: 1095px;
+    }
+    .right-button-review {
+        right: 420px;
+    }
 }
 @media screen and (max-width: 769px) {
     .catalog-text {
@@ -2255,6 +2285,15 @@ body {
     }
     .site-description {
         width: 100%;
+    }
+    .recall-block {
+        left: 90px;
+    }
+    .left-button-review {
+        right: 780px;
+    }
+    .right-button-review {
+        right: 108px;
     }
 }
 @media screen and (max-width: 481px) {
@@ -2551,6 +2590,71 @@ body {
     .site-description {
        gap: 15px;
     }
+    .reviews-about-site {
+        margin-top: 60px;
+        height: 570px;
+    }
+    .name-reviews-site {
+        margin-left: 20px;
+        font-size: 25px;
+        justify-content: left;
+    }
+    .recall-block-one,
+    .recall-block-two,
+    .recall-block-three,
+    .recall-block-fore {
+        width: 279px;
+        height: 403px;
+    }
+    .grid-recall-block-1 {
+        width: 277px;
+    }
+    .grid-recall-block-1::before {
+        left: 267.9px;
+    }
+    .grid-recall-block-1::after {
+        right: 267px;
+    }
+    .review-photo-1 {
+        bottom: 30px;
+        left: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .first-review-text {
+        top: 28%;
+        left: 50.4%;
+        width: 239px;
+        height: 255px;
+        font-size: 15px;
+    }
+    .review-instagram-1 {
+        left: 21.3px;
+        top: 20px;
+        gap: 15px;
+    }
+    .grid-recall-block-2 {
+        top: 51px;
+    }
+    .grid-recall-block-2::before {
+        left: 267.9px;
+    }
+    .grid-recall-block-2::after {
+        right: 261px;
+    }
+    .grid-recall-block-2 {
+        width: 271px;
+    }
+    .recall-block {
+        left: 103px;
+        margin-top: 60px;
+    }
+    .right-button-review {
+        right: 145px;
+    }
+    .left-button-review {
+        right: 485px;
+    }
 }
 
 @media screen and (max-width: 326px) {
@@ -2641,5 +2745,24 @@ body {
     }
     .about-site-tattoo {
         justify-items: center;
+    }
+    .reviews-about-site {
+        margin-top: 90px;
+        height: 650px;
+    }
+    .recall-block {
+        left: 25px;
+    }
+    .five-small-box-recall-block {
+        position: relative;
+        top: 105px;
+    }
+    .left-button-review {
+        top: 430px;
+        right: 228px;
+    }
+    .right-button-review {
+        top: 430px;
+        right: 97px;
     }
 }

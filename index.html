@@ -501,7 +501,7 @@
                     </div>
                     <div class="grid-recall-block-2"></div>
                 </div>
-                <div class="recall-block-one">
+                <div class="recall-block-three">
                     <div class="grid-recall-block-1"></div>
                     <img class="review-photo-1" src="assets/images/review-photo.png" alt="">
                     <div class="first-review-text">
@@ -519,7 +519,7 @@
                     </div>
                     <div class="grid-recall-block-2"></div>
                 </div>
-                <div class="recall-block-two">
+                <div class="recall-block-fore">
                     <div class="grid-recall-block-1"></div>
                     <img class="review-photo-1" src="assets/images/instagram-1.png" alt="">
                     <div class="first-review-text">
@@ -738,14 +738,27 @@
         const prevBtn = document.querySelector('.left-button-review');
         const nextBtn = document.querySelector('.right-button-review');
         const dots = document.querySelectorAll('.small-box-recall');
-        const reviews = document.querySelectorAll('.recall-block-one, .recall-block-two');
+        const reviews = document.querySelectorAll('.recall-block-one, .recall-block-two, .recall-block-three, .recall-block-fore');
 
         let currentIndex = 0;
         const totalReviews = reviews.length;
-        const visibleReviews = 2; // Количество видимых отзывов одновременно
+        const visibleReviews = 1; // Количество видимых отзывов одновременно
+
+        // Функция для получения актуальной ширины элемента карусели
+        function getReviewWidth() {
+            return window.innerWidth <= 481 ? 304 : 598;
+        }
+
+        // Функция для получения актуального отступа между элементами
+        function getGapWidth() {
+            return window.innerWidth <= 481 ? 20 : 45;
+        }
 
         // Функция обновления карусели
         function updateCarousel() {
+            const reviewWidth = getReviewWidth();
+            const gapWidth = getGapWidth();
+
             // Обновляем видимость отзывов
             reviews.forEach((review, index) => {
                 if (index >= currentIndex && index < currentIndex + visibleReviews) {
@@ -762,8 +775,8 @@
                 dot.classList.toggle('active-dot', index === Math.floor(currentIndex / visibleReviews));
             });
 
-            // Позиционируем карусель
-            const offset = -currentIndex * (598 + 45) / visibleReviews;
+            // Позиционируем карусель с учетом текущего размера
+            const offset = -currentIndex * (reviewWidth + gapWidth) / visibleReviews;
             carousel.style.transform = `translateX(${offset}px)`;
         }
 
@@ -795,8 +808,20 @@
         nextBtn.addEventListener('click', nextSlide);
         prevBtn.addEventListener('click', prevSlide);
 
+        // Обработчик изменения размера окна
+        function handleResize() {
+            updateCarousel();
+        }
+
         // Инициализация
         updateCarousel();
+
+        // Добавляем обработчик ресайза с троттлингом
+        let resizeTimeout;
+        window.addEventListener('resize', function() {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(handleResize, 100);
+        });
     });
 
 </script>
