@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 10.05.25">
+    <list default="true" id="91ea80a0-85da-413e-873f-3da96e84bb1d" name="Changes" comment="work 13.05.25">
+      <change afterPath="$PROJECT_DIR$/assets/images/shutterstoc.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -59,7 +60,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;471ddc04&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;478385fe&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/kilem/Desktop/single_page&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -125,7 +126,8 @@
       <workItem from="1746441457151" duration="7738000" />
       <workItem from="1746536567920" duration="9990000" />
       <workItem from="1746886090162" duration="11640000" />
-      <workItem from="1747066386080" duration="5562000" />
+      <workItem from="1747066386080" duration="5935000" />
+      <workItem from="1747150968928" duration="4146000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <option name="closed" value="true" />
@@ -343,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746894659531</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="work 13.05.25">
+      <option name="closed" value="true" />
+      <created>1747074233763</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1747074233763</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +381,7 @@
     <MESSAGE value="work 05.05.25" />
     <MESSAGE value="work 06.05.25" />
     <MESSAGE value="work 10.05.25" />
-    <option name="LAST_COMMIT_MESSAGE" value="work 10.05.25" />
+    <MESSAGE value="work 13.05.25" />
+    <option name="LAST_COMMIT_MESSAGE" value="work 13.05.25" />
   </component>
 </project>

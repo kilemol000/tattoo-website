@@ -1635,6 +1635,77 @@ body {
 .small-box-recall.active-dot {
     background-color: #BB8C5F;
 }
+.email-block{
+    width: 1598px;
+    height: 562px;
+    display: flex;
+    justify-content: flex-end;
+    float: right;
+}
+.email-table-first{
+    font-family: "Forum", sans-serif;
+    font-weight: 400;
+    color: #3E424B;
+    font-size: 60px;
+    width: 560px;
+    height: 60px;
+}
+.email-table-second{
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    color: #3E424B;
+    font-size: 25px;
+    width: 523px;
+    height: 60px;
+}
+.tables-email-address{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #636B78;
+    font-size: 17px;
+}
+.email-field{
+    width: 392px;
+    height: 70px;
+    background-color: #F5F5F5;
+}
+.tables-name-client{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #636B78;
+    font-size: 17px;
+}
+.name-field{
+    width: 392px;
+    height: 70px;
+    background-color: #F5F5F5;
+}
+.consent-text{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #636B78;
+    font-size: 13px;
+}
+.email-description{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-under-email{
+    width: 275px;
+    height: 70px;
+    position: relative;
+    border: 2px solid #BB8C5F;
+    background-color: #524336;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FAF6F2;
+    display: flex  ;
+    justify-content: center;
+    align-items: center;
+    top: 35px;
+    right: 340px;
+}
+
 
 @media screen and (max-width: 1376px) {
     .text-emails {
